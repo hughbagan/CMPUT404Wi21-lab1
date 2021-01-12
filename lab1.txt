@@ -1,0 +1,31 @@
+Hugh Bagan
+CMPUT404 Winter21
+Lab 1
+
+Question 1:
+https://github.com/hughbagan
+
+Question 2:
+`requests` system version 2.23.0
+
+Question 3:
+`requests` venv version 2.25.1
+
+Question 4:
+The virtual environment python is isolated from the system (my computer). Since I am running Ubuntu, the version will be a stable version and not the latest on my system. The virtual environment can afford to be more "bleeding edge".
+
+Question 5:
+http://google.com returns 301 "Moved Permanently"
+http://www.google.com returns 200
+
+Question 6:
+http://google.com/teapot returns 301 "Moved Permanently"
+`curl -iL` will follow it to where it was moved to and request that, too, in which case it returns 418 "I'm a Teapot".
+
+Question 7:
+It appears to have added a field to the form...
+    <DT>X: <i>&lt;type 'instance'&gt;</i>
+    <DD>MiniFieldStorage('X', 'Y')
+The curl manpage tells me that `-X` is used to specify a custom request method. Therefore it is useful for POST-ing payloads specified by the `-d` flag to the webpage .
+
+
